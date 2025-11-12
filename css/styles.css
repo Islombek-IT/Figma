@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.container {
+	max-width: 1440px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.header-container {
+	display: flex;
+	align-items: center;
+}
+.header-logo {
+	margin-right: auto;
+}
+.header-list {
+	display: flex;
+	margin-right: 32px;
+}
+.header-item:not(:last-child) {
+	margin-right: 32px;
+}
+.header-link {
+	color: #000000;
+	transition: opacity 0.5s ease;
+}
+.header-link:hover {
+	color: #ff7500;
+	opacity: 0.8;
+}
+.btn {
+	border: none;
+	border-radius: 4px;
+	padding: 12px 24px;
+	background-color: #ff7500;
+	transition: all;
+}
+.btn:hover {
+	color: #fff;
+	opacity: 0.8;
+}
+/* HEADER STOP */
+
+/* MAIN START */
+
+.hero {
+	background-color: #252420;
+	color: #fff;
+}
+
+.hero-container {
+	display: flex;
+	justify-content: space-between;
+}
+.hero-info {
+	max-width: 387px;
+	width: 100%;
+}
+.hero-line {
+	width: 80px;
+	height: 3px;
+	background-color: #ff7500;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.hero-title {
+	margin-bottom: 24px;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	leading-trim: NONE;
+	line-height: 120%;
+	letter-spacing: 0.5px;
+}
+.hero-text {
+	margin-bottom: 32px;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	leading-trim: NONE;
+	line-height: 150%;
+	letter-spacing: 0.5px;
+}
+
+.hero-img {
+	margin-top: 40px;
+	margin-bottom: -80px;
+}
+/* MAIN STOP */
+
+/* SECTION START */
+
+.why-akademnashr-container {padding: top 237px; ;
+	padding: bottom 527px; ;
+}
+.why-akademnashr-line {
+	width: 80px;
+	height: 3px;
+	background-color: #ff7500;
+	margin-top: 210px;
+	margin-bottom: 24px;
+}
+.why-akademnashr-title {
+	max-width: 435px;
+	width: 100%;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+	leading-trim: NONE;
+	line-height: 120%;
+	letter-spacing: 0.5px;
+	margin-bottom: 72px;
+}
+.why-akademnashr-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.why-akademnashr-logo {
+}
+.why-akademnashr-title2 {
+	margin-top: 32px;
+	margin-bottom: 12px;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	leading-trim: NONE;
+	line-height: 120%;
+	letter-spacing: 0.5px;
+}
+.why-akademnashr-text {
+	max-width: 314px;
+	width: 100%;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	leading-trim: NONE;
+	line-height: 150%;
+	letter-spacing: 0.5px;
+}
+/* SECTION STOP */
